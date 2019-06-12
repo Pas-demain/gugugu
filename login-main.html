@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跳转驴友记首页</title>
+    <script language="JavaScript" type="text/javascript">
+        function delayURL(url) {
+            var delay = document.getElementById("time").innerHTML;
+            if(delay > 0) {
+                delay--;
+                document.getElementById("time").innerHTML = delay;
+            } else {
+                window.top.location.href = url;
+            }
+            setTimeout("delayURL('" + url + "')", 1000);
+        }
+    </script>
+</head>
+<body>
+<p>登录成功！<span id="time" style="color:blue">3</span>
+    秒钟后自动跳转到登录界面，如果不跳转，请点击下面的链接<a href="register.html" style="color: blue;">我的驴友记</a></p>
+
+<script type="text/javascript">
+    delayURL("#");
+</script>
+</body>
+</html>

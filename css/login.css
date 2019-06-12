@@ -1,0 +1,120 @@
+
+body{
+    margin:0px;
+    background :url("../img/background-5.jpg") no-repeat;
+    background-size:cover;
+}
+.intro{
+    height: 60px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+.intro .in{
+    margin-top: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
+    color: #ffffff;
+    font-family: "Adobe 仿宋 Std R";
+}
+.intro .in img{
+    width: 200px;
+    height: auto;
+}
+
+.carousel-inner .item{
+    height:350px ;
+}
+.carousel-inner .item img{
+    height:100%;
+    width: 100%;
+}
+.deng{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.deng .tu{
+    width: 620px;
+    float: left;
+}
+.denglu{
+    width: 320px;
+    height:348px ;
+    border: 1px solid black;
+    border-radius: 5px;
+    float: right;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.31);
+}
+.denglu .title{
+    border-bottom: 1px solid darkgray;
+    font-size: 20px;
+    text-align:center;
+    margin:5px 0 5px 0;
+    padding-bottom: 5px;
+    color: #569eba;
+}
+.denglu .name{
+    margin: 30px 20px 20px 20px;
+}
+.denglu .input-group{
+    height: 40px;
+}
+.denglu #error_box1 ,.denglu #error_box2{
+    height: 20px;
+    font-size: 14px;
+    color: red;
+}
+.denglu .input-group .form-control{
+    height: 40px;
+}
+.denglu .r{
+    margin-top: 10px;
+}
+.denglu .r-left{
+    float: left;
+}
+.denglu .r-right{
+    float: right;
+}
+.denglu .button,.denglu .way{
+    margin: 20px 20px 20px 20px;
+}
+.denglu .button .btn{
+    background-color: #59aac7;;
+    padding: 10px;
+    border-radius:20px;
+}
+.denglu .way .le{
+    float: left;
+    margin-left: 20px;
+}
+.denglu .way .re{
+    float: right;
+    margin-right: 20px;
+}
+.denglu .way .re .fa{
+    margin-left: 10px;
+    font-size: 23px;
+    color: #acaca9;
+}
+.denglu .way .re a:hover .fa-wechat{
+    color:greenyellow;
+}
+.denglu .way .re a:hover .fa-qq{
+    color: #77acff;
+}
+.denglu .way .re a:hover .fa-weibo{
+    color: #ff1c0c;
+}
+.denglu .input-group .fa{
+    color: rgb(224, 223, 228);
+}
+.denglu span{
+    background-color: #59aac7;
+    border-radius: 5px;
+}
+.denglu .form-control{
+    border-radius:5px;
+    background:none ;
+}

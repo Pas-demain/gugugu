@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>注册</title>
+    <link href="css/register.css" rel="stylesheet">
+    <script src="js/register.js"></script>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+
+<div class="logo">
+    <img src="img/logo+name.png">
+</div>
+
+<div class="zhu">
+    <div class="main">
+        <h1 class="name">账号注册</h1>
+        <form class="buu" action="" method="post" name="myform" onsubmit="return checkForm()">
+            <b>用户名：</b><input type="text" placeholder="用户名" class="a" id="name" onfocus="nameFocu()" onkeydown="nameBlur()"><br>
+            <div class="error_box1 err" id="error_box1" ></div>
+            <b>电子邮箱：</b><input type="email" placeholder="电子邮箱" class="a" id="email" onfocus="emailFocu()" onkeydown="emailBlur()"><br>
+            <div class="error_box2 err" id="error_box2"></div>
+            <div class="c" >
+                <b class="d" >性别：
+                    <input type="radio" name="sex" value="male" checked="true">男
+                    <input type="radio" name="sex" value="female" >女</b>
+            </div>
+            <div class="error_box3 err" id="error_box3"></div>
+            <b>输入密码：</b><input type="password" placeholder="输入密码" class="a" id="password" onfocus="pwdFocu()" onblur="pwdBlur()"><br>
+            <div class="error_box4 err" id="error_box4"></div>
+            <b>确认密码：</b><input type="password" placeholder="确认密码" class="a" id="repassword" onfocus="repwdFocu()" onblur="repwdBlur()"><br>
+            <div class="error_box5 err" id="error_box5"></div>
+            <b>手机号码：</b><input type="text" placeholder="手机号码" class="a" id="phone" onfocus="phoneFocu()" onblur="phoneBlur()"><br>
+            <div class="error_box6 err" id="error_box6"></div>
+            <b>验证码：</b><input type="text" class="a b" placeholder="验证码" id="inputCode" onfocus="codeFocu()" onblur="codeBlur()">
+            <div class="code" id="checkCode" onclick="createCode()"></div><br>
+            <div class="error_box7 err" id="error_box7"></div>
+        </form>
+        <button class="btn" id="submit" onclick="submit()">注册</button>
+    </div>
+</div>
+
+<footer>所有版权均来自驴友记，侵权按一切法律执行</footer>
+</body>
+</html>

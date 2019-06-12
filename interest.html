@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>驴友记——带你看世界</title>
+    <link rel="stylesheet" href="css/Rest.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/find.css">
+    <link rel="stylesheet" href="css/interest.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.imgbox.pack.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/moment.js" language="JavaScript"></script>
+    <script src="dist/jquery-canvas-sparkles.js"></script>
+</head>
+<body>
+<!--横向固定导航栏-->
+<div class="top">
+    <div class="top_main">
+        <div class="top_logo fl"></div>
+        <div class="top_search fl">
+            <span class="top_search_message">
+                <input type="search" class="top_search_name" placeholder="输入你想去的地方！">
+                <!--输入你想去的地方！-->
+            </span>
+            <div class="top_search_search"></div>
+        </div>
+        <div class="top_main_right fr">
+            <ul>
+                <li><a href="main.html"><i class="fa fa-home"></i>首页</a></li>
+                <li><a href="find.html"><i class="fa fa-compass"></i>发现</a></li>
+                <li><a href="interest.html"><i class="fa fa-ravelry"></i>有趣</a></li>
+                <li><a href="http://map.sogou.com/#c=11589859.375,3577187.5,13&originurltype=WL_VR_EntCity&hb=1,1"><i class="fa fa-map-marker"></i>地图</a></li>
+                <li><a href="login.html"><i class="fa fa-user-o"></i>登录/</a><a href="register.html">注册</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--横向固定导航栏-->
+
+<!--主题部分-->
+<div class="main">
+    <!--主题左边部分-->
+    <div class="find-left" style="float: left">
+        <div class="dao_top">
+            <ul>
+                <li><img src="img/点.png"><a href="main.html">首页</a></li>
+                <li><img src="img/点.png"><a href="find.html">发现</a> </li>
+                <li style="background-color:rgba(89, 170, 199, 0.6); "><img src="img/点.png"><a href="interest.html">有趣</a> </li>
+            </ul>
+        </div>
+        <hr>
+        <div class="main_left_bottom">
+            <div class="form">好友列表</div>
+            <hr style="width: 80px;color: white">
+            <div class="form-friend">
+                <ul>
+                    <li><a href="#"><img src="img/headshot-王都都.jpg">王都都</a></li>
+                    <li><a href="#"><img src="img/headshot-柯基.jpg">柯基</a></li>
+                    <li><a href="#"><img src="img/headshot-博美美.jpg">博美美</a></li>
+                    <li><a href="#"><img src="img/headshot-唐毅.jpg">唐毅</a></li>
+                    <li><a href="info.html"><img src="img/headshot-GUGU.jpg">GUGU</a></li>
+                    <li><a href="#"><img src="img/headshot-小胖子啊.jpg">小胖子啊</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--主题中间部分-->
+    <div class="find-center" style="float: left">
+        <div class="moment">
+            <div class="m-top">
+                <div class="m-photo" style="float: left">
+                    <a href="#"><img src="img/headshot-博美美.jpg"></a>
+                </div>
+                <div class="m-id" style="float: left">
+                    <h3><a href="#">博美美</a></h3>
+                    <p><a href="#">12月04日 17:21</a></p>
+                </div>
+            </div>
+            <div class="m-center">
+                <p>马耳他是一个小到没有机场的地方，但是那里的人们很淳朴，都很热情。马耳他的食物也很好吃。也可以租车，
+                    就是停车是一个麻烦的事，那里没有停车场，只要找到空位就可以停车，但是有时候空位很找到。而且马耳他的
+                    车座位是右边，这也是一个难点。在马耳他，还有好看的喷泉，还有大炮，好像每天的下午四点都会放炮，要是
+                    你想去看，就得计算时间了。酒吧的老板也很热情，他们会把好看的酒摆出来，陈列在吧台的柜台上，上面有许
+                    多很好看的酒。我记得喝一种酒需要加柠檬和盐才很好喝。先吃一口柠檬，再添一点盐，在喝酒是非常清爽的。
+                </p>
+            </div>
+            <hr>
+            <div class="m-bottom">
+                <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+            </div>
+        </div>
+        <div class="moment">
+            <div class="m-top">
+                <div class="m-photo" style="float: left">
+                    <a href="#"><img src="img/headshot-王都都.jpg"></a>
+                </div>
+                <div class="m-id" style="float: left">
+                    <h3><a href="#">王都都</a></h3>
+                    <p><a href="#">12月04日 17:21</a></p>
+                </div>
+            </div>
+            <div class="m-center">
+                <img  src="img/map-2.jpg">
+                <div class="icon big">
+                    <i class="fa fa-search-plus"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="m-bottom">
+                <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+            </div>
+        </div>
+        <div class="moment">
+            <div class="m-top">
+                <div class="m-photo" style="float: left">
+                    <a href="#"><img src="img/head1.jpg"></a>
+                </div>
+                <div class="m-id" style="float: left">
+                    <h3><a href="#">2！3！</a></h3>
+                    <p><a href="#">12月04日 17:21</a></p>
+                </div>
+            </div>
+            <div class="m-center">
+                <p>这一家的烤鱼非常好吃，而且是自助烤鱼，每个人50元就可以吃够。店家的态度也非常好，每个人都可以领取免费的饮料。也还有非常多的小吃，小吃也非常好吃。</p>
+                <img src="img/map-1.jpg">
+                <div class="icon big">
+                    <i class="fa fa-search-plus"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="m-bottom">
+                <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+            </div>
+        </div>
+        <div class="moment">
+            <div class="m-top">
+                <div class="m-photo" style="float: left">
+                    <a href="#"><img src="img/headshot-小胖子啊.jpg"></a>
+                </div>
+                <div class="m-id" style="float: left">
+                    <h3><a href="info.html">小胖子啊</a></h3>
+                    <p><a href="info.html">12月04日 17:21</a></p>
+                </div>
+            </div>
+            <div class="m-center">
+                <p>Dogs Of The World (《全世界的狗狗》)上】插画家Lili Chin根据狗狗的起源地和种类创作了200+只狗狗的
+                    海报合集！真的好可爱！还有高清世界狗狗地图可以下载[好喜欢]图片来源doggiedrawings.net ​​​​</p>
+                <ol>
+                    <li>
+                        <img src="img/map-3.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗2.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗1.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗3.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗4.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗5.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗6.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗7.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/狗8.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <hr>
+            <div class="m-bottom">
+                <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+            </div>
+        </div>
+        <div class="moment">
+            <div class="m-top">
+                <div class="m-photo" style="float: left">
+                    <a href="#"><img src="img/headshot-唐毅.jpg"></a>
+                </div>
+                <div class="m-id" style="float: left">
+                    <h3><a href="#">唐毅</a></h3>
+                    <p><a href="#">12月04日 17:21</a></p>
+                </div>
+            </div>
+            <div class="m-center">
+                <p>这一家的烤鱼非常好吃，而且是自助烤鱼，每个人50元就可以吃够。店家的态度也非常好，每个人都可以领取免费的饮料。也还有非常多的小吃，小吃也非常好吃。</p>
+                <img src="img/map-4.jpg">
+                <div class="icon big">
+                    <i class="fa fa-search-plus"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="m-bottom">
+                <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+            </div>
+        </div>
+        <div class="moment">
+            <div class="m-top">
+                <div class="m-photo" style="float: left">
+                    <a href="#"><img src="img/headshot-柯基.jpg"></a>
+                </div>
+                <div class="m-id" style="float: left">
+                    <h3><a href="#">柯基</a></h3>
+                    <p><a href="#">12月04日 17:21</a></p>
+                </div>
+            </div>
+            <div class="m-center">
+                <p>大冷天最适合这种有汤有肉，热气腾腾🍲的美食啦。溢香苑瓦罐的酥肉和莲夹可真是一绝，久泡不烂，浸透了
+                    汤汁咬下去依旧是焦香酥脆，滋味十足。配菜更是丰富，豆腐，粉条，青菜，菌菇，在大骨汤里滚过之后，更
+                    增加了一层口感。还有最最喜欢的油酥烧饼，外皮酥脆，内芯松软，一层层的酥皮色泽金黄，散发着微微的香
+                    味，每次至少两个起吃 ​​​​</p>
+                <ol>
+                    <li>
+                        <img src="img/map-5.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/food1.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/food2.gif">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/food2.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/food3.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="img/food4.jpg">
+                        <div class="icon1 big">
+                            <i class="fa fa-search-plus"></i>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+            <hr>
+            <div class="m-bottom">
+                <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+            </div>
+        </div>
+        <div class="more moment">
+            <p>更多动态...</p>
+        </div>
+    </div>
+
+    <!--主题右边部分-->
+    <div class="in-right" style="float: right">
+        <div class="right-1">
+            <h3>最近搜索</h3>
+            <hr>
+            <div class="info">
+                <p><a href="#">#成都到东京的路线</a></p>
+                <p><a href="#">#有蝎子的地方</a></p>
+                <p><a href="#">#去马耳他的最佳路线</a></p>
+                <p><a href="#">#去夏威夷注意什么</a></p>
+                <p><a href="#">#马耳他租车</a></p>
+                <p><a href="#">#右方向盘地方</a></p>
+                <p><a href="#">#去看极光</a></p>
+                <p><a href="#">#坐船的旅行</a></p>
+            </div>
+        </div>
+        <div class="right-1">
+            <h3>相关推荐</h3>
+            <hr>
+            <div class="info">
+                <div class="m-top">
+                    <div class="m-photo" style="float: left">
+                        <a href="#"><img src="img/headshot-柯基.jpg"></a>
+                    </div>
+                    <div class="m-id" style="float: left">
+                        <h3><a href="#">柯基</a></h3>
+                    </div>
+                </div>
+                <div class="m-center">
+                    <p>大冷天最适合这种有汤有肉，热气腾腾🍲的美食啦。溢香苑瓦罐的酥肉和莲夹可真是一绝，久泡不烂，浸透了
+                            汤汁咬下去依旧是焦香酥脆，滋味十足。配菜更是丰富，豆腐，粉条，青菜，菌菇，在大骨汤里滚过之后，更
+                            增加了一层口感。还有最最喜欢的油酥烧饼，外皮酥脆，内芯松软，一层层的酥皮色泽金黄，散发着微微的香
+                            味，每次至少两个起吃 ​​​​</p>
+                    <ol>
+                        <li>
+                            <img src="img/map-5.jpg">
+                            <div class="icon1 big">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/food1.jpg">
+                            <div class="icon1 big">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/food2.gif">
+                            <div class="icon1 big">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/food2.jpg">
+                            <div class="icon1 big">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/food3.jpg">
+                            <div class="icon1 big">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="img/food4.jpg">
+                            <div class="icon1 big">
+                                <i class="fa fa-search-plus"></i>
+                            </div>
+                        </li>
+                    </ol>
+            </div>
+</div>
+            <hr>
+            <div class="info">
+                <div class="m-top">
+                    <div class="m-photo" style="float: left">
+                        <a href="#"><img src="img/headshot-柯基.jpg"></a>
+                    </div>
+                    <div class="m-id" style="float: left">
+                        <h3><a href="#">柯基</a></h3>
+                    </div>
+                </div>
+                <div class="m-center">
+                    <p>大冷天最适合这种有汤有肉，热气腾腾🍲的美食啦。溢香苑瓦罐的酥肉和莲夹可真是一绝，久泡不烂，浸透了
+                        汤汁咬下去依旧是焦香酥脆，滋味十足。配菜更是丰富，豆腐，粉条，青菜，菌菇，在大骨汤里滚过之后，更
+                        增加了一层口感。还有最最喜欢的油酥烧饼，外皮酥脆，内芯松软，一层层的酥皮色泽金黄，散发着微微的香
+                        味，每次至少两个起吃 ​​​​</p>
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+<!--下部固定版权内容-->
+<div id="footer">
+    <p>Copyright © 1990-2018 LVYOUJI 网络技术有限公司</p>
+</div>
+<!--下部固定版权内容-->
+
+<script>
+
+    $("body").sparkle({
+        color: "rainbow",
+        count:600,
+        overlap: 1,
+        speed: 2,
+        minSize: 5,
+        maxSize: 10,
+        direction: "both"
+    });
+</script>
+</body>
+</html>

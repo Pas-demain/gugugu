@@ -1,0 +1,168 @@
+
+.find-left{
+    width: 120px;
+    height: 100%;
+    margin-top: 64px;
+    background-color:rgba(255,255,255,0.5);
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+    position: fixed;
+}
+.dao_top li{
+    margin-bottom:10px;
+    line-height: 30px;
+    text-align: left;
+    padding-left:20px;
+}
+.dao_top li:hover{
+    background-color: rgba(89, 170, 199, 0.77) !important;
+    transition: 0.5s all;
+}
+.dao_top img{
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+hr{
+    border: 0.5px solid rgba(103, 93, 63, 0.27);
+}
+
+.find-center{
+    width: 620px;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.moment .m-top{
+    height: 50px;
+    padding: 18px 18px 0px 18px;
+}
+.moment .m-photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.moment .m-id{
+    margin:10px 0 0 10px;
+}
+.moment{
+    width: 100%;
+    margin-top: 14px;
+    background: rgba(255,255,255,0.8);
+    border-radius:6px;
+    text-align: left;
+}
+.moment h3{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+.moment p{
+    color: grey;
+    font-size: 14px
+}
+.moment .m-center{
+    font-size: 16px;
+    color: black;
+    line-height: 20px;
+    font-family: "Adobe 宋体 Std L";
+    margin-left: 80px;
+    margin-right:40px;
+}
+.moment .m-center img{
+    width: 500px;
+    height:280px;
+    margin-top: 5px;
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.moment .m-center .icon{
+    width: 500px;
+    height: 280px;
+    background-color: rgba(89, 170, 199, 0.58);
+    position: absolute;
+    text-align: center;
+    margin-top: -285px;
+    margin-left: 1px;
+    opacity: 0;
+}
+.moment .m-center .icon .fa{
+    margin-top: 120px;
+    font-size: 26px;
+    color: white;
+}
+.moment .m-center .icon:hover,.moment .m-center li .icon1:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.moment .m-center li{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.moment .m-center li img{
+    width: 150px;
+    height: 150px;
+}
+.moment .m-center li .icon1{
+    width:150px ;
+    height: 150px;
+    background-color: rgba(89, 170, 199, 0.58);
+    position: absolute;
+    text-align: center;
+    margin-top: -155px;
+    margin-left: 1px;
+    opacity: 0;
+}
+.moment .m-center li .icon1 .fa{
+    margin-top: 66px;
+    color: white;
+}
+.moment .m-bottom{
+    height: 36px;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+.moment .m-bottom .b{
+    width: 155px;
+    margin-top: 8px;
+}
+.more{
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 604px;
+}
+.find-right{
+    width: 200px;
+    height: 400px;
+    margin-top: 64px;
+    background-color: white;
+    border-radius: 6px;
+}
+.find3 h3{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+.find3 .re{
+    width: 70px;
+    margin-left: 26px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.find3 .re p{
+    margin-bottom: 10px;
+}
+.find3 .re a{
+    color: grey;
+}
+.find3 .re a:hover,.moment a:hover,.moment .m-bottom i:hover,.more p:hover, .main_left_bottom .form-friend li a:hover,.right-1 a:hover{
+    color: rgba(89, 170, 199, 0.77);
+    transition: 0.3s all;
+}
+
+
+

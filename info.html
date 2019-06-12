@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>驴友记——带你看世界</title>
+    <link rel="stylesheet" href="css/Rest.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/find.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/moment.js"></script>
+</head>
+<body>
+<!--横向固定导航栏-->
+<div class="top">
+    <div class="top_main">
+        <div class="top_logo fl"></div>
+        <div class="top_search fl">
+            <span class="top_search_message">
+                <input type="search" class="top_search_name" placeholder="输入你想去的地方！">
+                <!--输入你想去的地方！-->
+            </span>
+            <div class="top_search_search"></div>
+        </div>
+        <div class="top_main_right fr">
+            <ul>
+                <li><a href="main.html"><i class="fa fa-home"></i>首页</a></li>
+                <li><a href="find.html"><i class="fa fa-compass"></i>发现</a></li>
+                <li><a href="interest.html"><i class="fa fa-ravelry"></i>有趣</a></li>
+                <li><a href="http://map.sogou.com/#c=11589859.375,3577187.5,13&originurltype=WL_VR_EntCity&hb=1,1"><i class="fa fa-map-marker"></i>地图</a></li>
+                <li><a href="info.html"><i class="fa fa-user-o"></i>GUGU</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--横向固定导航栏-->
+
+<!--info背景头像-->
+<div class="main">
+    <div class="info-top">
+        <div class="info-photo">
+            <img src="img/headshot-GUGU.jpg">
+            <div class="id">
+                <h2>GUGU</h2>
+                <p class="sign">Love yourself，Love myself，peace。我们都来自这个世界，所以希望我们真诚相待。在努力一点吧</p>
+            </div>
+        </div>
+        <div style="background-color: white;height: 20px">
+        </div>
+    </div>
+    <div class="info-left">
+        <div class="dao">
+            <button style="float: left;width: 100px" id="all">全部</button>
+            <div style="float: right;">
+                    <button id="map">路线</button>
+                    <button id="text">随笔</button>
+                    <button id="mt">路线随笔</button>
+            </div>
+        </div>
+        <div class="main-moment">
+            <div class="moment mo-text">
+                <div class="m-top">
+                    <div class="m-photo" style="float: left">
+                        <a href="info.html"><img src="img/headshot-GUGU.jpg"></a>
+                    </div>
+                    <div class="m-id" style="float: left">
+                        <h3><a href="info.html">GUGU</a></h3>
+                        <p><a href="#">12月04日 17:21</a></p>
+                    </div>
+                </div>
+                <div class="m-center">
+                    <p>马耳他是一个小到没有机场的地方，但是那里的人们很淳朴，都很热情。马耳他的食物也很好吃。也可以租车，
+                        就是停车是一个麻烦的事，那里没有停车场，只要找到空位就可以停车，但是有时候空位很找到。而且马耳他的
+                        车座位是右边，这也是一个难点。在马耳他，还有好看的喷泉，还有大炮，好像每天的下午四点都会放炮，要是
+                        你想去看，就得计算时间了。酒吧的老板也很热情，他们会把好看的酒摆出来，陈列在吧台的柜台上，上面有许
+                        多很好看的酒。我记得喝一种酒需要加柠檬和盐才很好喝。先吃一口柠檬，再添一点盐，在喝酒是非常清爽的。
+                    </p>
+                </div>
+                <hr>
+                <div class="m-bottom">
+                    <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                    <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                    <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                    <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+                </div>
+            </div>
+            <div class="moment mo-map">
+                <div class="m-top">
+                    <div class="m-photo" style="float: left">
+                        <a href="info.html"><img src="img/headshot-GUGU.jpg"></a>
+                    </div>
+                    <div class="m-id" style="float: left">
+                        <h3><a href="info.html">GUGU</a></h3>
+                        <p><a href="#">12月04日 17:21</a></p>
+                    </div>
+                </div>
+                <div class="m-center">
+                    <img  src="img/map-2.jpg">
+                    <div class="icon big">
+                        <i class="fa fa-search-plus"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="m-bottom">
+                    <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                    <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                    <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                    <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+                </div>
+            </div>
+            <div class="moment mo-all">
+                <div class="m-top">
+                    <div class="m-photo" style="float: left">
+                        <a href="#"><img src="img/headshot-GUGU.jpg"></a>
+                    </div>
+                    <div class="m-id" style="float: left">
+                        <h3><a href="info.html">GUGU</a></h3>
+                        <p><a href="info.html">12月04日 17:21</a></p>
+                    </div>
+                </div>
+                <div class="m-center">
+                    <p>这一家的烤鱼非常好吃，而且是自助烤鱼，每个人50元就可以吃够。店家的态度也非常好，每个人都可以领取免费的饮料。也还有非常多的小吃，小吃也非常好吃。</p>
+                    <img src="img/map-1.jpg">
+                    <div class="icon big">
+                        <i class="fa fa-search-plus"></i>
+                    </div>
+                </div>
+                <hr>
+                <div class="m-bottom">
+                    <div class="b" style="float: left"><i class="fa fa-star-o">收藏</i></div>
+                    <div class="b" style="float: left"><i class="fa fa-retweet">转发</i></div>
+                    <div class="b" style="float: left"><i class="fa fa-comment-o">评论</i></div>
+                    <div class="b"style="float: right"><i class="fa fa-thumbs-o-up">点赞</i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info-right">
+        <div class="right-1">
+            <div style="float: left" class="p1">
+                <h2><a href="#">20</a></h2><br>
+                <p>好友</p>
+            </div>
+            <div style="float: left" class="p1">
+                <h2><a href="#">30</a></h2><br>
+                <p>动态</p>
+            </div>
+            <div style="float: right">
+                <h2><a href="#">30</a></h2><br>
+                <p>收藏</p>
+            </div>
+        </div>
+        <div class="right-2">
+            <div class="p1">
+                <i class="fa fa-map-marker"><b>CHINA</b></i>
+            </div>
+            <div class="p1">
+                <i class="fa fa-birthday-cake"><b>6月13日</b></i>
+            </div>
+            <div class="p1">
+                <i class="fa fa-book"><b>简介：Love yourself，Love myself，peace。我们都来自这个世界，所以希望我们真诚相待。在努力一点吧</b></i>
+            </div>
+            <div class="p2">
+                <i class="fa fa-envelope"><b>Bighit@best.com</b></i>
+            </div>
+            <hr>
+            <div class="p3">
+                <a href="#">查看更多...</a>
+            </div>
+        </div>
+        <div class="right-3">
+            <div class="p1">
+                <p>共同好友</p>
+            </div>
+            <hr>
+            <div class="p2">
+                <div class="f1">
+                    <a href="#"><img src="img/headshot-小胖子啊.jpg"></a>
+                    <a href="#"><p>小胖子啊</p></a>
+                </div>
+                <div class="f1">
+                    <a href="#"><img src="img/headshot-唐毅.jpg"></a>
+                        <a href="#"><p>唐毅</p></a>
+                </div>
+                <div class="f1">
+                    <a href="#"><img src="img/headshot-王都都.jpg"></a>
+                        <a href="#"><p>王都都</p></a>
+                </div>
+                <div class="f1">
+                    <a href="#"><img src="img/headshot-柯基.jpg"></a>
+                        <a href="#"><p>柯基</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="right-4">
+            <div class="p1">
+                <p>相册</p>
+            </div>
+            <hr>
+            <div class="p2">
+                <img src="img/map-2.jpg" class="img1">
+                <div class="p3">
+                <img src="img/map-1.jpg" class="img2"><br>
+                <img src="img/food3.jpg" class="img3">
+                </div>
+                <img src="img/map-2.jpg" class="img3">
+                <img src="img/map-2.jpg" class="img3">
+                <img src="img/map-2.jpg" class="img3">
+            </div>
+            <hr>
+            <div class="p4">
+                <a href="#">查看更多...</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="footer">
+    <p>Copyright © 1990-2018 LVYOUJI 网络技术有限公司</p>
+</div>
+</body>
+</html>

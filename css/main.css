@@ -1,0 +1,368 @@
+@charset"utf-8";
+html{
+    font: 14px 宋体;
+    background:url("../img/background-7.jpg") no-repeat fixed;
+    background-size: cover;
+}
+a{
+    color: #000;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+/*顶部固定导航栏*/
+.top{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    background:url("../img/background-7.jpg") no-repeat fixed;
+    background-size: cover;
+    border-bottom: solid #cdcdc9 1px;
+}
+.top_main{
+    width: 1000px;
+    height: 50px;
+    background:url("../img/background-7.jpg") no-repeat fixed;
+    background-size: cover;
+    margin: 0 auto;
+}
+.top_logo{
+    width: 155px;
+    height: 50px;
+    background: url("../image/logo+name.png");
+}
+.top_search{
+    width: 200px;
+    height: 30px;
+    position: relative;
+    margin: 9px 0 0 100px;
+}
+.top_search_name{
+    height: 30px;
+    width: 200px;
+    padding: 0px 0px 0px 5px;
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid #dcdcdc;
+    font-size: 13px;
+}
+.top_search_search{
+    width: 21px;
+    height: 21px;
+    top: 4px;
+    left: 175px;
+    position: absolute;
+    background: url("../image/search.png");
+    background-size: cover;
+}
+.top_main_right ul li{
+    float: left;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 50px;
+}
+.top_main_right a{
+    color: white;
+}
+.top_main_right .fa{
+    display: inline-block;
+    color: #fcfcdc;
+    margin-right: 2px;
+}
+.top_main_right a:hover{
+    color: #ffc443 !important;
+    transition: 0.5s all;
+}
+
+/*主体部分*/
+.main{
+    width: 960px;
+    margin: 0 auto;
+}
+.main_left{
+    position: fixed;
+    margin-top: 64px;
+    width: 120px;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+}
+.main_left_top ul li{
+    line-height: 30px;
+    font-family: "Microsoft YaHei UI";
+    border-bottom: solid 1px #DCDCDC;
+    margin: 5px 20px 5px 10px;
+    font-size: 15px;
+}
+.main_left_top img{
+    width: 16px;
+    margin-right: 10px;
+}
+ .form{
+    padding-top:6px;
+    text-align: center;
+     font-size: 12px;
+}
+ .form-friend li{
+    padding:8px 8px 8px 16px;
+    font-size: 12px;
+}
+ .form-friend img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.main_center{
+    width: 620px;
+    margin-top: 64px;
+    margin-left: 130px;
+}
+.main_center_top{
+    width: 590px;
+    padding: 15px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 6px;
+}
+.main_center_top_left ul li{
+    float: left;
+    padding-left: 10px;
+}
+.main_center_top_left s{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../img/logo-1.png");
+    background-size: cover;
+}
+.main_center_top_input{
+    width: 575px;
+    margin-top: 15px;
+}
+.input{
+    width: 100%;
+    min-height: 100px;
+    padding: 5px;
+}
+.main_center_top_bottom{
+    padding: 10px 0 10px 20px;
+    font-size: 12px;
+    vertical-align: middle;
+    font-family: "Adobe 宋体 Std L";
+}
+.main_center_top_bottom i{
+    margin-right: 4px;
+    color: #01be00;
+    font-size: 18px;
+    vertical-align: middle;
+    margin-top: -8px;
+}
+.main_center_top_bottom button{
+    margin-right: 20px;
+    width: 80px;
+    height: 24px;
+    margin-top: -6px;
+    background-color: rgba(109, 160, 191, 0.71);
+    border-radius: 6px;
+}
+.main_center_top_bottom button:hover{
+    background-color: #829cb1;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.item{
+    width: 620px;
+    margin-top: 10px;
+}
+.main_right{
+    width: 200px;
+    height: 400px;
+    margin-top: 64px;
+}
+.main_right_me{
+    height: 160px;
+    width: 200px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.97);
+}
+.main_right_me_head {
+    height: 90px;
+    width: 90px;
+    margin: 0 auto;
+}
+.main_right_me_head img{
+    height: 90px;
+    width: 90px;
+    border-bottom: solid 1px #708090;
+    background-size: cover;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+.main_right_me_name{
+    text-align: center;
+    line-height: 30px;
+    font-family: "Microsoft YaHei UI";
+    border-bottom: solid 1px #708090;
+}
+.main_right_me_other{
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.main_right_me_other ul li{
+    float: left;
+    padding-left: 10px;
+    line-height: 40px;
+}
+.main_right_me_other s{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../img/logo-2.png");
+    background-size: cover;
+}
+.main_right_message{
+    margin-top:10px;
+}
+.right{
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+ .right h3{
+    font-size: 16px;
+    margin-left: 10px;
+    padding-top: 8px;
+    font-weight: bold;
+     color: #569eba;
+}
+.info1{
+    padding: 0px 10px 20px 20px;
+    font-size: 14px;
+}
+.info1 p{
+    margin-top: 6px;
+}
+.info1 a{
+    color: grey;
+}
+.info1 a:hover{
+    color: #569eba;
+}
+
+
+.main_center .main_center_top a:hover,.main_center .main_center_top .main_center_top_bottom p:hover,.main_right .main_right_me .main_right_me_other a:hover{
+    color: #ffc443;
+    transition: 0.5s all;
+}
+#footer{
+    width: 100%;
+    padding: 20px;
+    background:snow;
+    display: flex;
+    flex-direction:column;
+    margin-top: 10px;
+}
+#footer p{
+    text-align: center !important;
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

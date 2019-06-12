@@ -1,0 +1,78 @@
+.in-right{
+    margin-top: 64px;
+}
+.right-1{
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.in-right h3{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 8px;
+    font-weight: bold;
+}
+.in-right .info{
+    padding-bottom: 8px;
+}
+.right-1 p{
+    margin: 10px 10px 10px 20px;
+}
+.right-1 a{
+    color: grey;
+}
+.info .m-top{
+    height: 30px;
+    padding: 5px 10px 0px 5px;
+}
+.info .m-photo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.info h3{
+    font-weight: bold;
+    font-size: 11px;
+    font-family: "Times New Roman";
+}
+.info p{
+    color: grey;
+    font-size: 8px
+}
+.info .m-center{
+    color: black;
+    line-height: 20px;
+    font-family: "Adobe 宋体 Std L";
+}
+.info .m-center ol{
+    margin-left: 14px;
+}
+.info .m-center li{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-right: 4px;
+}
+.info .m-center li img{
+    width: 82px;
+    height: 82px;
+}
+.info .m-center .icon:hover,.info .m-center li .icon1:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+.info .m-center li .icon1{
+    width:82px ;
+    height: 82px;
+    background-color: rgba(89, 170, 199, 0.58);
+    position: absolute;
+    text-align: center;
+    margin-top: -87px;
+    margin-left: 0px;
+    opacity: 0;
+}
+.info .m-center li .icon1 .fa{
+    margin-top: 36px;
+    color: white;
+}

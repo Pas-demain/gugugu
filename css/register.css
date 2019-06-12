@@ -1,0 +1,102 @@
+body{
+    margin:0px;
+    background :url("../img/background-4.jpg") no-repeat;
+    background-size: cover;
+    background-position:top left;
+}
+.logo{
+    float: left;
+    margin-left: 180px;
+    margin-top: 150px;
+    position: relative;
+}
+.logo img{
+    width: 180px;
+    height: auto;
+}
+.zhu {
+    float: right;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+.zhu .name{
+    text-align: right;
+    font-size: 24px;
+    color: #59aac7;
+    margin-right: 150px;
+    margin-bottom: 30px;
+}
+.zhu .main {
+    text-align: right;
+    margin: auto;
+    width: 400px;
+    color: white;
+}
+.zhu .main .buu .a{
+    height: 34px;
+    margin: 0px 10px 0px 10px;
+    width: 240px;
+    border-radius: 2px;
+    background: rgba(255,255,255,0.5);
+    border: 1px solid rgba(220, 220, 220, 0.15) !important;
+    padding-left: 5px;
+    font-size: 10px !important;
+}
+.zhu .main .buu .b{
+    width: 150px !important;
+}
+.zhu .main .buu .code{
+    height: 33px;
+    width: 84px;
+    margin-left:-8px;
+    margin-top: 1px;
+    border: 1px solid grey;
+    margin-right: 10px;
+    float:right;
+    background:url("333.jpg");
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial;
+    padding:2px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;
+    cursor:pointer;
+    vertical-align:middle;
+}
+.zhu .main .buu .d{
+    margin-right:140px;
+}
+.zhu .main .buu .c input{
+    margin-left:30px;
+}
+.zhu .main .buu .yzm{
+    height: 33px;
+    width: 84px;
+    margin-left:-4px;
+    border: 1px solid grey;
+    margin-right: 10px;
+    padding: 5px 5px 8px 5px;
+}
+.zhu .main .buu .err{
+    margin-right:20px;
+    color: red;
+    height: 20px;
+}
+.zhu .main .btn{
+    width: 240px;
+    height: 34px;
+    margin: 0px 10px 0px 30px;
+    background-color:#59aac7;
+    border-radius: 30px;
+    border: 1px solid #59aac7;
+}
+.zhu .main .choice{
+    margin:0px 100px 5px 0;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 10px;
+}
